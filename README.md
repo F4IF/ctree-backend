@@ -45,7 +45,7 @@ This specific project holds the officialy supported Collaboration Tree backend.
 
 ## Technology
 
-TODO
+The technology is based on NGINX as proxy server, NaviServer as webserver, TCL-TK and Python3 as programing languages, PostgreSQL as database manager system and PSQL as SQL language script. 
 
 ## License
 Copyright (c) 2020 Foundation For an Innovative Future (InnovativeFuture.org)
