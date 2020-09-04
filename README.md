@@ -45,7 +45,13 @@ This specific project holds the officialy supported Collaboration Tree backend.
 
 ## Technology
 
-The technology is based on NGINX as proxy server, NaviServer as webserver, TCL-TK and Python3 as programing languages, PostgreSQL as database manager system and PSQL as SQL language script. 
+The technology is based on:
+1. Unix-Like Operating System, Debian and Ubuntu are most used, https://www.debian.org/index.pt.html and https://ubuntu.com/;
+2. NGINX as proxy server, https://docs.nginx.com/;
+3. NaviServer as webserver, https://naviserver.sourceforge.io/;
+4. PostgreSQL as database manager system and PSQL as SQL language script. https://www.postgresql.org/docs/ and https://www.postgresql.org/docs/9.2/app-psql.html;
+5. Python3 and TCL-TK as programing languages, https://www.python.org/doc/ and http://tcl.tk/man/tcl8.6/contents.htm;
+6. OpenACS Framework https://openacs.org/doc/
 
 ## License
 Copyright (c) 2020 Foundation For an Innovative Future (InnovativeFuture.org)
@@ -179,7 +185,12 @@ for alpha testing, but may build on it to implement the dialog.
 
 #### Prerequisites
 
-TODO
+1. Unix-Like Operating System, Debian and Ubuntu are most used, https://www.debian.org/index.pt.html and https://ubuntu.com/;
+2. NGINX as proxy server, https://docs.nginx.com/;
+3. NaviServer as webserver, https://naviserver.sourceforge.io/;
+4. PostgreSQL as database manager system and PSQL as SQL language script. https://www.postgresql.org/docs/ and https://www.postgresql.org/docs/9.2/app-psql.html;
+5. Python3 and TCL-TK as programing languages, https://www.python.org/doc/ and http://tcl.tk/man/tcl8.6/contents.htm;
+
 
 #### Checkout project
 
