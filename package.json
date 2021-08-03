@@ -1,0 +1,43 @@
+{
+  "name": "ctree-backend",
+  "version": "1.0.0",
+  "description": "Collaboration Tree Server",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "inspect": "nodemon --inspect src/index.js",
+    "test": "jest",
+    "lint": "npm run lint:js",
+    "lint:eslint": "eslint --ignore-path .gitignore",
+    "lint:js": "npm run lint:eslint src/",
+    "lint:fix": "npm run lint:js -- --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/F4IF/ctree-backend.git"
+  },
+  "keywords": [
+    "ctree",
+    "js",
+    "javascript",
+    "node",
+    "nodejs"
+  ],
+  "author": "Foundation For an Innovative Future",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/F4IF/ctree-backend/issues"
+  },
+  "homepage": "https://github.com/F4IF/ctree-backend#readme",
+  "dependencies": {
+    "celebrate": "^15.0.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "jest": "^27.0.6"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "watch": [
+    "src",
+    ".env",
+    "package-lock.json",
+    "package.json"
+  ],
+  "ext": "js,json",
+  "ignore": [
+    "test/*"
+  ]
+}
